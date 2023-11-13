@@ -15,8 +15,9 @@ public class Galeria
     /**
      * Constructor for objects of class Galeria
      */
-    public Galeria()
-    {
+    public Galeria(String nombre, int superficie, Cuadro cuadro){
+        this.nombre = nombre;
+        this.superficie = superficie;
+        this.cuadro = cuadro;
     }
-
 }
