@@ -20,4 +20,16 @@ public class Galeria
         this.superficie = superficie;
         this.cuadro = cuadro;
     }
+    
+    public String getNombre(){
+        return nombre;
+    }
+    
+    public int getSuperficie(){
+        return superficie;
+    }
+    
+    public Cuadro getCuadro(){
+        return cuadro;
+    }
 }
