@@ -27,4 +27,9 @@ public class Cuadro
     public void setPrecio(double precio){
         this.precio = precio;
     }
+    
+    public void imprimirDetalles(){
+        System.out.println("Autor: " + autor);
+        System.out.println("Precio: " + precio + "€");
+    }
 }
