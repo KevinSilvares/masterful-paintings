@@ -32,4 +32,16 @@ public class Galeria
     public Cuadro getCuadro(){
         return cuadro;
     }
+    
+    public void setNombre(String nombre){
+        this.nombre = nombre;
+    }
+    
+    public void setSuperficie(int superficie){
+        this.superficie = superficie;
+    }
+    
+    public void setCuadro(Cuadro cuadro){
+        this.cuadro = cuadro;
+    }
 }
