@@ -11,4 +11,20 @@ public class Cuadro
         this.autor = autor;
         this.precio = precio;
     }
+    
+    public String getAutor(){
+        return autor;
+    }
+    
+    public double getPrecio(){
+        return precio;
+    }
+    
+    public void setAutor(String autor){
+        this.autor = autor;
+    }
+    
+    public void setPrecio(double precio){
+        this.precio = precio;
+    }
 }
