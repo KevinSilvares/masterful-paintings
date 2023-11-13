@@ -44,4 +44,10 @@ public class Galeria
     public void setCuadro(Cuadro cuadro){
         this.cuadro = cuadro;
     }
+    
+    public void imprimirDetalles(){
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Superficie " + superficie);
+        cuadro.imprimirDetalles();
+    }
 }
